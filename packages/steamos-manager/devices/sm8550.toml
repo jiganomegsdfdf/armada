@@ -40,6 +40,12 @@ variant       = "Odin2"
 friendly_name = "AYN Odin 2"
 
 [[device]]
+dt.compatible = "oneplus,aston"
+device        = "oneplus_aston"
+variant       = "Aston"
+friendly_name = "OnePlus Ace 3"
+
+[[device]]
 dt.compatible = "ayn,odin2mini"
 device        = "ayn_odin_2_mini"
 variant       = "Odin2Mini"
@@ -68,6 +74,7 @@ dt.compatible = "retroidpocket,rpnova"
 device        = "retroid_pocket_nova"
 variant       = "RPNova"
 friendly_name = "Retroid Pocket Nova"
+
 
 # armada-powerd owns the governor and serves CpuScaling1 over remotes.d.
 [cpu_scaling]
